@@ -1,5 +1,5 @@
 {
-  "name": "mate-ar",
+  "name": "MerrixApi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankdilu/Mate-ar.git"
+    "url": "git+https://github.com/frankdilu/MerrixApi.git"
   },
   "author": "Franco Di Luciano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frankdilu/Mate-ar/issues"
+    "url": "https://github.com/frankdilu/MerrixApi/issues"
   },
-  "homepage": "https://github.com/frankdilu/Mate-ar#readme"
+  "homepage": "https://github.com/frankdilu/MerrixApi#readme"
 }
