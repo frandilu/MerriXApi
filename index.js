@@ -10,6 +10,9 @@ io.on("connection", socket => {
         console.log(msg);
         io.emit(msg);
     });
+    socket.on("disconnect", r => {
+        io.emit(["server","User disconnected"]);
+    });
 });
 
 server.listen(port, () => console.log("server running on port:" + port));
