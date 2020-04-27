@@ -8,10 +8,10 @@ io.on("connection", socket => {
     console.log("a user connected :D");
     socket.on("chat message", msg => {
         console.log(msg);
-        io.emit(msg);
+        io.emit("chat message",msg);
     });
     socket.on("disconnect", r => {
-        io.emit(["server","User disconnected"]);
+        io.emit("chat message",["server","User disconnected"]);
     });
 });
 
