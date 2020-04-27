@@ -1,0 +1,28 @@
+{
+  "name": "mate-ar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankdilu/Mate-ar.git"
+  },
+  "author": "Franco Di Luciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankdilu/Mate-ar/issues"
+  },
+  "homepage": "https://github.com/frankdilu/Mate-ar#readme"
+}
